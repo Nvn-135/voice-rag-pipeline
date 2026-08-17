@@ -13,6 +13,7 @@ async function convertSpeechToText(audioFile) {
         
         // Note: Check ElevenLabs docs for their exact STT model ID and endpoint for 2026
         formData.append('model_id', 'scribe_v1'); 
+        formData.append('language_code', 'hi');
 
         const response = await axios.post(
             'https://api.elevenlabs.io/v1/speech-to-text', 
