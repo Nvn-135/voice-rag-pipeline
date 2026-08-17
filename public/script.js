@@ -68,7 +68,7 @@ async function sendAudioToBackend() {
 
     try {
         // Backend URL (Ensure your node server is running on port 3000)
-        const response = await fetch('https://voice-rag-backend-7wrm.onrender.comhttps://voice-rag-backend-7wrm.onrender.com/api/ask', {
+        const response = await fetch('https://voice-rag-backend-7wrm.onrender.com/api/ask', {
             method: 'POST',
             body: formData
         });
