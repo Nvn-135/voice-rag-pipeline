@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice RAG - Project Matrix</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-animation"></div>
+    
+    <div class="glass-container">
+        <header>
+            <h1 class="glow-text">VOICE RAG <span class="badge">V.1</span></h1>
+            <p class="subtitle">Neural Retrieval Augmented Generation</p>
+        </header>
+
+        <div class="interaction-area">
+            <button id="recordBtn" class="mic-btn">
+                <i class="fas fa-microphone"></i>
+            </button>
+            <p id="statusText" class="status-text">System Ready. Tap to Speak.</p>
+        </div>
+
+        <div id="outputArea" class="output-area hidden">
+            <div class="output-box">
+                <span class="label">TRANSCRIPTION //</span>
+                <p id="transcriptionText" class="content-text">...</p>
+            </div>
+            
+            <div class="output-box primary-box">
+                <span class="label">AI RESPONSE //</span>
+                <p id="answerText" class="content-text">...</p>
+            </div>
+
+            <div class="metrics">
+                <span class="label">LATENCY:</span>
+                <span id="latencyText" class="metric-value">-- ms</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
