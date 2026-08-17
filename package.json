@@ -1,0 +1,28 @@
+{
+  "name": "voice-rag-pipeline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ingestData.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nvn-135/voice-rag-pipeline.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Nvn-135/voice-rag-pipeline/issues"
+  },
+  "homepage": "https://github.com/Nvn-135/voice-rag-pipeline#readme",
+  "dependencies": {
+    "@pinecone-database/pinecone": "^8.2.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "groq-sdk": "^1.5.0"
+  }
+}
