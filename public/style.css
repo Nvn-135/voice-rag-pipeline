@@ -21,7 +21,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    
+    
+    overflow-x: hidden; 
+    overflow-y: auto;   
+    padding: 40px 20px; 
+    
     background-image: 
         radial-gradient(circle at 15% 50%, rgba(0, 243, 255, 0.08) 0%, transparent 50%),
         radial-gradient(circle at 85% 30%, rgba(112, 0, 255, 0.08) 0%, transparent 50%);
@@ -192,4 +197,18 @@ header {
     background: var(--primary-glow); 
     border-radius: 10px;
     box-shadow: 0 0 10px var(--primary-glow); 
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-color); 
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-glow); 
+    border-radius: 10px;
+    box-shadow: 0 0 10px var(--primary-glow);
 }
