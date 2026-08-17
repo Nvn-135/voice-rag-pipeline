@@ -20,6 +20,7 @@
   "homepage": "https://github.com/Nvn-135/voice-rag-pipeline#readme",
   "dependencies": {
     "@pinecone-database/pinecone": "^8.2.0",
+    "axios": "^1.19.0",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
