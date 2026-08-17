@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Nvn-135/voice-rag-pipeline#readme",
   "dependencies": {
+    "@huggingface/inference": "^4.13.26",
     "@langchain/community": "^1.1.29",
     "@langchain/core": "^1.2.8",
     "@pinecone-database/pinecone": "^8.2.0",
