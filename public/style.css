@@ -140,6 +140,11 @@ header {
     border-left: 3px solid var(--text-muted);
     padding: 15px;
     border-radius: 4px;
+    
+    
+    max-height: 250px; 
+    overflow-y: auto;  
+    word-wrap: break-word; 
 }
 
 .primary-box {
@@ -172,4 +177,19 @@ header {
     font-weight: bold;
     font-size: 1.1rem;
     text-shadow: 0 0 5px rgba(0, 255, 170, 0.5);
+}
+
+.output-box::-webkit-scrollbar {
+    width: 6px;
+}
+
+.output-box::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.2); 
+    border-radius: 4px;
+}
+
+.output-box::-webkit-scrollbar-thumb {
+    background: var(--primary-glow); 
+    border-radius: 10px;
+    box-shadow: 0 0 10px var(--primary-glow); 
 }
