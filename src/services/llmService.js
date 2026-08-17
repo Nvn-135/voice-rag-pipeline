@@ -34,7 +34,7 @@ Strict Rules:
                 { role: "system", content: systemPrompt },
                 { role: "user", content: userQuery }
             ],
-            model: "llama-3.3-70b-versatile", 
+            model: "mixtral-8x7b-32768", 
             temperature: 0.1, 
             max_tokens: 1024, 
         });
